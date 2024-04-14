@@ -1,0 +1,253 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.Mask-Group img {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    z-index: 0.5;
+}
+
+.logo img {
+    position: absolute;
+    width: 237px;
+    height: 62px;
+    top: 76px;
+    left: 106px;
+    gap: 0px;
+    opacity: 0px;
+}
+
+
+/* Thuộc tính menu */
+
+.main-menu {
+    position: absolute;
+    list-style-type: none;
+    display: flex;
+    width: 574px;
+    height: 22px;
+    top: 76px;
+    left: 760px;
+    display: flex;
+}
+
+.main-menu li a {
+    text-decoration: none;
+    display: block;
+    color: #FFFCFC;
+    font-size: 18px;
+    font-weight: 300;
+    font-family: 'Gilroy', sans-serif;
+    margin-right: 30px;
+    padding: 8px 10px;
+}
+
+
+/* Icon menu */
+
+.toggle {
+    position: absolute;
+    color: #FFFCFC;
+    width: 60px;
+    height: 60px;
+    top: 20px;
+    left: 20px;
+    justify-content: center;
+    text-align: center;
+    font-size: 40px;
+    display: none;
+    cursor: pointer;
+    background-color: #037EE3;
+    text-align: center;
+    justify-content: center;
+    border-radius: 5px;
+}
+
+.close {
+    position: absolute;
+    background-color: #037EE3;
+    color: #FFFCFC;
+    width: 60px;
+    height: 60px;
+    top: 20px;
+    left: 20px;
+    justify-content: center;
+    text-align: center;
+    font-size: 40px;
+    display: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+@media screen and (max-width: 768px) {
+    .Mask-Group {
+        width: 100%;
+        height: 100%;
+    }
+    .logo img {
+        margin-left: 150px;
+    }
+    /* Menu */
+    .main-menu {
+        flex-direction: column;
+        top: 90px;
+        left: -5px;
+    }
+    .main-menu li a {
+        background-color: #FFFCFC;
+        color: #037EE3;
+        width: 200px;
+    }
+    nav .main-menu li:hover a {
+        background-color: rgb(135, 133, 133);
+    }
+    nav {
+        display: none;
+    }
+    .toggle {
+        display: block;
+        display: none;
+    }
+    .close {
+        display: block;
+    }
+    .who-are-we {
+        text-align: center;
+    }
+}
+
+.Solgan {
+    position: absolute;
+    color: #FFFCFC;
+    top: 523px;
+    left: 800px;
+    width: 717px;
+    height: 367px;
+    top: 423px;
+    left: 620px;
+}
+
+.btn-follow button {
+    position: absolute;
+    height: 45px;
+    width: 200px;
+    text-align: center;
+    top: 750px;
+    left: 1125px;
+    color: #037EE3;
+    padding: 12px 24px;
+    border-radius: 2px;
+    border: 1px solid #037EE3;
+    font-family: 'Gilroy', sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+}
+
+.icon {
+    position: absolute;
+    display: flex;
+    right: 160px;
+    padding: 0;
+    top: 840px;
+    right: 180px;
+}
+
+.icon-item {
+    margin-right: 20px;
+}
+
+.Line-1 {
+    position: absolute;
+    width: 938.33px;
+    height: 0px;
+    top: 1302.25px;
+    left: 659.75px;
+    gap: 0px;
+    border: 1px 0px 0px 0px;
+    z-index: 1;
+}
+
+.Line-3 img {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.Line-4 img {
+    position: absolute;
+    left: 0;
+    top: 0;
+    margin-top: 500px;
+}
+
+.Rectangle-13 {
+    position: absolute;
+    left: 0;
+    top: 0;
+    margin-top: 650px;
+    margin-left: 173px;
+}
+
+.Group-113 {
+    position: absolute;
+    width: 466px;
+    height: 234px;
+    top: 1155px;
+    left: 106px;
+    gap: 0px;
+    opacity: 0px;
+}
+
+.Group-157 {
+    position: absolute;
+    width: 809px;
+    height: 713px;
+    top: 1186px;
+    left: 631px;
+    gap: 0px;
+    opacity: 0px;
+    z-index: 1;
+}
+
+.Ellipse-1 {
+    position: absolute;
+    top: 892px;
+    left: 631px;
+}
+
+.Ellipse-2 {
+    position: absolute;
+    top: 1058px;
+    left: 1058px;
+    z-index: 1;
+}
+
+.who-are-we {
+    position: absolute;
+    width: 466px;
+    height: 234px;
+    top: 1155px;
+}
+
+.who-are-we-1 {
+    margin-left: 106px;
+    color: #0061B0;
+    font-size: 120px;
+    font-weight: 700;
+    font-family: 'Gilroy', sans-serif;
+}
+
+.who-are-we-2 {
+    right: 100px;
+    margin-left: 50px;
+    color: #908B8B;
+    font-family: 'Gilroy', sans-serif;
+    font-size: 96px;
+    font-weight: 400;
+    margin-left: 230px;
+}
+
+@media screen and (min-width: 768px) {}
