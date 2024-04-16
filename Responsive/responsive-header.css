@@ -1,0 +1,394 @@
+        /*Ipad ngang(1024 x 768)*/
+        
+        @media screen and (max-width: 1150px) {
+            header .background-header-picture {
+                width: 100%;
+            }
+        }
+        
+        @media screen and (max-width: 1000px) {
+            header {
+                background-color: #9d9d9d;
+            }
+            header .background-header img {
+                width: 1200px;
+            }
+            #wrapper {
+                display: none;
+            }
+            .logo img {
+                width: 195px;
+                height: 56px;
+                top: 58px;
+                left: 600px;
+            }
+            .Solgan {
+                top: 130px;
+                width: 490px;
+                height: 490px;
+                left: 280px;
+                object-fit: contain;
+            }
+            .Menu-icon {
+                position: absolute;
+                width: 50px;
+                height: 50px;
+                top: 40px;
+                left: 74px;
+                font-size: 70px;
+                padding: 7.5px 5px 7.5px 5px;
+                z-index: 3;
+                color: aliceblue;
+            }
+            .Line-1 {
+                display: none;
+            }
+            .Line-3 {
+                width: 233.88px;
+                height: 200px;
+                font-size: 60px;
+                left: 833px;
+                transform: skew(40deg, 0);
+            }
+            .Line-4 {
+                display: none;
+            }
+            header .Square-empty {
+                width: 153px;
+                height: 153px;
+                top: 82px;
+                left: 250px;
+            }
+            header .Square {
+                width: 92px;
+                height: 92px;
+                top: 378px;
+                left: 100px;
+            }
+            header .Ellipse-1 {
+                width: 94px;
+                height: 94px;
+                top: 540px;
+                left: 190px;
+            }
+            header .Ellipse-2 {
+                width: 200px;
+                height: 200px;
+                top: 670px;
+                left: 580px;
+            }
+            .btn-follow button {
+                top: 460px;
+                width: 200px;
+                left: 560px;
+                height: 60px;
+            }
+            .icon {
+                width: 154.73px;
+                height: 32.73px;
+                top: 550px;
+                left: 613px;
+                letter-spacing: 5px;
+            }
+            .background-header-picture-1 {
+                width: 639.66px;
+                height: 599.36px;
+                top: 750px;
+                left: 150px;
+            }
+            .who-are-we {
+                width: 220px;
+                height: 87px;
+                top: 1403px;
+                left: 90px;
+            }
+        }
+        
+        @media screen and (max-width: 900px) {
+            header {
+                background-color: #9d9d9d;
+            }
+            header .background-header img {
+                width: 1000px;
+            }
+            #wrapper {
+                display: none;
+            }
+            .logo img {
+                width: 195px;
+                height: 56px;
+                top: 58px;
+                left: 600px;
+            }
+            .Solgan {
+                top: 130px;
+                width: 490px;
+                height: 490px;
+                left: 280px;
+                object-fit: contain;
+            }
+            .Menu-icon {
+                position: absolute;
+                width: 50px;
+                height: 50px;
+                top: 40px;
+                left: 74px;
+                font-size: 70px;
+                padding: 7.5px 5px 7.5px 5px;
+                z-index: 3;
+                color: aliceblue;
+            }
+            .Line-1 {
+                display: none;
+            }
+            .Line-3 {
+                width: 233.88px;
+                height: 200px;
+                font-size: 60px;
+                left: 833px;
+                transform: skew(40deg, 0);
+            }
+            .Line-4 {
+                display: none;
+            }
+            header .Square-empty {
+                width: 153px;
+                height: 153px;
+                top: 82px;
+                left: 250px;
+            }
+            header .Square {
+                width: 92px;
+                height: 92px;
+                top: 378px;
+                left: 100px;
+            }
+            header .Ellipse-1 {
+                width: 94px;
+                height: 94px;
+                top: 540px;
+                left: 190px;
+            }
+            header .Ellipse-2 {
+                width: 200px;
+                height: 200px;
+                top: 670px;
+                left: 580px;
+            }
+            .btn-follow button {
+                top: 460px;
+                width: 200px;
+                left: 560px;
+                height: 60px;
+            }
+            .icon {
+                width: 154.73px;
+                height: 32.73px;
+                top: 550px;
+                left: 613px;
+                letter-spacing: 5px;
+            }
+            .background-header-picture-1 {
+                width: 639.66px;
+                height: 599.36px;
+                top: 750px;
+                left: 150px;
+            }
+            .who-are-we {
+                width: 220px;
+                height: 87px;
+                top: 1403px;
+                left: 90px;
+            }
+        }
+        
+        @media screen and (max-width: 768px) {
+            header {
+                background-color: #9d9d9d;
+            }
+            header .background-header-picture {
+                width: 100%;
+            }
+            .logo img {
+                width: 200px;
+                height: 63px;
+                top: 58px;
+                left: 440px;
+                object-fit: contain;
+            }
+            .Solgan {
+                top: 240px;
+                width: 380px;
+                height: 380px;
+                left: 290px;
+                object-fit: contain;
+            }
+            .Menu-icon {
+                position: absolute;
+                width: 30px;
+                height: 30px;
+                top: 20px;
+                left: 54px;
+                font-size: 50px;
+                padding: 7.5px 5px 7.5px 5px;
+                z-index: 3;
+                color: aliceblue;
+            }
+            .Line-1 {
+                display: none;
+            }
+            .Line-3 {
+                width: 233.88px;
+                height: 200px;
+                font-size: 60px;
+                left: 613px;
+                transform: skew(40deg, 0);
+            }
+            .Line-4 {
+                display: none;
+            }
+            header .Square-empty {
+                width: 133px;
+                height: 133px;
+                top: 140px;
+                left: 220px;
+                border: 25px 0px 0px 0px;
+            }
+            header .Square {
+                width: 72px;
+                height: 72px;
+                top: 358px;
+                left: 130px;
+                border-radius: 5px 0px 0px 0px;
+            }
+            header .Ellipse-1 {
+                width: 94px;
+                height: 94px;
+                top: 520px;
+                left: 170px;
+                border: 52px 0px 0px 0px;
+            }
+            header .Ellipse-2 {
+                width: 190px;
+                height: 190px;
+                top: 700px;
+                left: 480px;
+                border: 20px 0px 0px 0px;
+            }
+            .btn-follow button {
+                width: 170px;
+                height: 50px;
+                top: 520px;
+                left: 500px;
+            }
+            .icon {
+                width: 154px;
+                height: 32px;
+                top: 600px;
+                left: 530px;
+            }
+            .background-header-picture-1 {
+                width: 600px;
+                height: 500px;
+                top: 780px;
+                left: 60px;
+            }
+            .who-are-we {
+                width: 100px;
+                height: 77px;
+                top: 1303px;
+                left: 30px;
+            }
+        }
+        
+        @media screen and (max-width: 680px) {
+            header .background-header-picture {
+                width: 100%;
+            }
+        }
+        
+        @media screen and (max-width: 480px) {
+            header .background-header-picture {
+                width: 100%;
+            }
+        }
+        
+        @media screen and (max-width: 380px) {
+            header .background-header-picture {
+                width: 100%;
+            }
+            .logo img {
+                width: 195px;
+                height: 56px;
+                top: 58px;
+                left: 450px;
+            }
+            .background-header-picture-1 {
+                width: 539.66px;
+                height: 499.36px;
+                top: 740px;
+                left: 90px;
+            }
+            .Solgan {
+                top: 130px;
+                width: 390px;
+                height: 390px;
+                left: 240px;
+                object-fit: contain;
+            }
+            header .Square-empty {
+                width: 120px;
+                height: 123px;
+                top: 92px;
+                left: 150px;
+            }
+            header .Square {
+                width: 92px;
+                height: 92px;
+                top: 378px;
+                left: 100px;
+            }
+            header .Ellipse-1 {
+                width: 94px;
+                height: 94px;
+                top: 540px;
+                left: 180px;
+            }
+            header .Ellipse-2 {
+                width: 200px;
+                height: 200px;
+                top: 670px;
+                left: 430px;
+            }
+            .btn-follow button {
+                top: 420px;
+                width: 200px;
+                left: 430px;
+                height: 60px;
+            }
+            .icon {
+                width: 154.73px;
+                height: 32.73px;
+                top: 520px;
+                left: 480px;
+                letter-spacing: 5px;
+            }
+            .who-are-we {
+                width: 200px;
+                height: 77px;
+                top: 1300px;
+                left: 30px;
+            }
+        }
+        
+        @media screen and (max-width: 280px) {
+            header .background-header-picture {
+                width: 100%;
+            }
+            .background-header-picture-1 {
+                width: 639.66px;
+                height: 599.36px;
+                top: 750px;
+                left: 50px;
+            }
+        }
