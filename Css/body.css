@@ -1,0 +1,130 @@
+
+*{
+    font-family: 'Gilroy', sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.content-body {
+    margin-top: -950px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    z-index: -1;
+    
+}
+
+.background-header-picture-1 {
+    z-index: 3;
+}
+.what-we-do{
+    position: relative;
+}
+
+.who-are-we-1 {
+    text-align: center;
+    color: #0061B0;
+    font-size: 100px;
+    font-weight: 700;
+    z-index: 3;
+}
+
+.who-are-we-2 {
+    margin-left: 200px;
+    color: #908B8B;
+    font-size: 86px;
+    font-weight: 400;
+    z-index: 3;
+}
+
+.who-are-we-text {
+    margin-left: 100px;
+    align-items: center;
+    width: 420px;
+    font-size: 18px;
+    z-index: 3;
+}
+
+.button-read-more {
+    font-size: 16px;
+    border: none;
+    background-color: #0061B0;
+    width: 143px;
+    height: 47px;
+    margin-top: 20px;
+    margin-left: 100px;
+    box-shadow: 0px 4px 6px 0px #00000033;
+    border-radius: 2px;
+    
+}
+
+.button-read-more a {
+    color: aliceblue;
+}
+
+.what-we-do{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+}
+.what-we-do-img{
+    text-align: center;
+    align-items: flex-start;
+}
+
+.what-we-do-text{
+    margin-top: 10px;
+    text-align: center;
+}
+
+.what-we-do-text-0{
+    font-size: 48px;
+}
+.what-we-do-text-1{
+    font-size: 16px;
+}
+.content-list{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    margin-right: 100px;
+    margin-left: 100px;
+    gap: 30px;
+}
+
+.ideal-title {
+    margin: 10px 0;
+}
+.ideal-img{
+    position: relative;
+}
+.line-text-ideal{
+    position: absolute;
+    top: 12px;
+    width: 1084px;
+    left: 120px;
+    height: 2px;
+    background-color: black;
+    z-index: -1;
+}
+.strategy-title{
+    margin: 10px 0;
+  
+}
+
+.design-title{
+    margin: 10px 0;
+
+}
+
+.development-title{
+    margin: 10px 0;
+   
+}
+
+.product-title{
+    margin: 10px 0;
+
+} 
+

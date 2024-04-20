@@ -1,0 +1,604 @@
+@media screen and (max-width: 1024px) {
+    .content-body {
+        margin-left: 100px;
+        margin-top: -1800px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .background-header-picture-1 {
+        order: -1;
+    }
+
+    
+    .who-are-we-1 {
+        margin-top: 100px;
+        margin-left: -100px;
+    }
+
+    .who-are-we-2 {
+        text-align: center;
+        margin-left: 100px;
+    }
+
+    .who-are-we-text {
+        margin-top: 100px;
+        margin-left: 200px;
+    }
+
+    .button-read-more {
+        margin-left: 200px;
+    }
+
+    .content-list {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .ideal {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .strategy {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .design {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .development {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .product {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .content-list {
+        height: 650px;
+    }
+
+    .ideal-img {
+        order: -1;
+        margin-left: 0px;
+        margin-top: 65px;
+    }
+    
+    .ideal-icon{
+        margin-left: 40px;
+    }
+    .ideal-title-text {
+        margin-left: 50px;
+        width: 500px;
+    }
+
+    .strategy-img {
+        order: -1;
+        margin-left: 0px;
+        margin-top: 65px;
+    }
+    .strategy-icon{
+        margin-left: 40px;
+    }
+
+    .strategy-title-text {
+        margin-left: 50px;
+        width: 500px;
+    }
+
+    .design-img {
+        order: -1;
+        margin-left: 0px;
+        margin-top: 65px;
+    }
+    .design-icon{
+        margin-left: 40px;
+    }
+    .design-title-text {
+        margin-left: 50px;
+        width: 500px;
+    }
+
+    .development-img {
+        order: -1;
+        margin-left: 0px;
+        margin-top: 65px;
+    }
+    .development-icon{
+        margin-left: 40px;
+    }
+    .development-title-text {
+        margin-left: 50px;
+        width: 500px;
+    }
+
+    .product-img {
+        order: -1;
+        margin-left: 0px;
+        margin-top: 65px;
+    }
+    .product-icon{
+        margin-left: 40px;
+    }
+    .product-title-text {
+        margin-left: 50px;
+        width: 500px;
+    }
+
+    .line-text-ideal {
+        top: 9px;
+        height: 586px;
+        left: 3px;
+        width: 3px;
+    }
+
+}
+
+@media screen and (max-width: 997px) {
+
+    .background-header-picture-1 img {
+        width: 600px;
+        margin-top: 120px;
+        margin-left: 150px;
+    }
+
+    .what-we-do-img {
+        left: 330px;
+    }
+
+
+    .what-we-do-text {
+        margin-top: 80px;
+        margin-left: 230px;
+        width: 600px;
+
+    }
+
+}
+
+@media screen and (max-width:920px) {
+    .background-header-picture-1 {
+        margin-top: 40px;
+        margin-left: -100px;
+    }
+
+    .what-we-do-text {
+        width: 500px;
+        margin-left: 230px;
+    }
+
+    .what-we-do-text {
+        width: 450px;
+    }
+
+}
+
+@media screen and (max-width:800px) {
+    .background-header-picture-1 {
+        margin-top: 30px;
+        margin-left: -180px;
+    }
+
+    .content-body-container {
+        margin-left: -100px;
+    }
+
+    .what-we-do-text {
+        margin-left: 150px;
+    }
+}
+
+@media screen and (max-width:720px) {
+    .background-header-picture-1 img {
+        width: 450px;
+        margin-top: 150px;
+        margin-left: 230px;
+    }
+
+    .who-are-we {
+        margin-left: 120px;
+    }
+
+    .content-body-container {
+        width: 500px;
+    }
+
+    .what-we-do-img {
+        width: 400px;
+        margin-top: 80px;
+        margin-left: 160px;
+    }
+    .line-text-ideal {
+        top: 9px;
+        height: 686px;
+        left: 4px;
+        width: 3px;
+    }
+}
+
+@media screen and (max-width:650px) {
+    .background-header-picture-1 {
+        margin-left: -250px;
+    }
+
+    .content-body-container {
+        margin-left: -200px;
+    }
+
+    .who-are-we {
+        margin-top: -10px;
+        margin-left: 250px;
+    }
+
+    .who-are-we-1 {
+        font-size: 90px;
+        margin-bottom: -10px;
+    }
+
+    .who-are-we-2 {
+        font-size: 76px;
+    }
+
+    .what-we-do-text {
+        margin-left: 120px;
+
+    }
+
+    .what-we-do-img {
+        margin-left: 150px;
+    }
+    .line-text-ideal {
+        height: 786px;
+    }
+}
+
+@media screen and (max-width:580px) {
+    .background-header img {
+        padding-bottom: 1300px;
+    }
+
+    .background-header-picture-1 {
+        margin-top: 197px;
+    }
+
+    .who-are-we {
+        margin-left: 180px;
+    }
+
+    .what-we-do-img {
+        margin-top: -50px;
+        margin-left: 100px;
+    }
+
+    .what-we-do-text {
+        margin-left: 80px;
+    }
+
+    .content-list {
+        width: 400px;
+    }
+
+    .ideal-img {
+        margin-top: 65px;
+    }
+
+    .strategy-img {
+        margin-top: 65px;
+    }
+
+    .design-img {
+        margin-top: 65px;
+    }
+
+    .development-img {
+        margin-top: 65px;
+    }
+
+    .product-img {
+        margin-top: 65px;
+    }
+    .line-text-ideal {
+        height: 785px;
+    }
+}
+
+@media screen and (max-width:540px) {
+    .background-header-picture-1 {
+        width: 100px;
+        margin-top: 250px;
+        margin-left: -330px;
+    }
+
+    .content-body-container {
+        margin-left: -230px;
+    }
+
+    .what-we-do-text {
+        margin-left: 40px;
+    }
+
+    .content-list {
+        height: 800px;
+        margin-left: 30px;
+    }
+
+}
+
+@media screen and (max-width: 496px) {
+    .background-header-picture-1 img{
+        width: 350px;
+        margin-top: 150px;
+        margin-left: 290px;
+    }
+    .who-are-we-text{
+        width: 300px;
+    }
+    .who-are-we{
+        margin-left: 150px;
+    }
+    .content-list{
+        width: 300px;
+    }
+    .what-we-do{
+        width: 300px;
+    }
+    .what-we-do-img img{
+        width: 200px;
+        margin-top: -100px;
+        margin-left: -100px;
+    }
+    .what-we-do-text{
+        margin-left: 100px;
+        width: 300px;
+    }
+    .line-text-ideal{
+        height: 1360px;
+    }
+}
+
+@media screen and (max-width: 490px) {
+    .what-we-do-img{
+        width: 70px;
+        margin-top: 70px;
+        margin-left: 250px;
+    }
+    .what-we-do-text{
+        margin-left:70px;
+    }
+    .what-we-do-text-0{
+        font-size: 38px;
+    }
+
+    .content-list{
+        width: 400px;
+    }
+
+    .ideal-img img{
+        margin-top: 10px;
+    }
+    .ideal-icon{
+        width: 70px;
+    }
+    .line-text-ideal{
+        margin-top: 10px;
+        height: 780px;
+    }
+
+    .strategy-img img{
+        margin-top: 10px;
+    }
+    .strategy-icon{
+        width: 70px;
+    }
+    .design-img img{
+        margin-top: 10px;
+    }
+    .design-icon{
+        width: 70px;
+    }
+    .development-img img{
+        margin-top: 10px;
+    }
+    .development-icon{
+        width: 70px;
+    }
+    .product-img img{
+        margin-top: 10px;
+    }
+  
+}
+
+@media screen and (max-width:435px){
+    .background-header-picture-1 img{
+        margin-top: 200px;
+        margin-left: 230px;
+    }
+
+    .who-are-we{
+        margin-top: 10px;
+    }
+    .what-we-do-img img{
+        margin-top: -200px;
+        margin-left: 50%;
+    }
+    .who-are-we-1{
+        font-size: 60px;
+    }
+    .who-are-we-2{
+        font-size: 60px;
+    }
+
+    .who-are-we-text{
+        margin-top: 50px;
+        width: 230px;
+    }
+
+    .what-we-do-text{
+        margin-left: 90px;
+        width: 250px;
+    }
+    .what-we-do-img{
+        margin-left:  60px;
+    }
+    .what-we-do-text-0{
+        font-size: 38px;
+    }
+    
+    .content-list{
+        width: 350px;
+    }
+    .line-text-ideal{
+        height: 1020px;
+    }
+
+    .ideal-title-text{
+        margin-top: 50px;
+    }
+}
+
+
+@media screen and (max-width:395px) {
+    .content-body-container{
+        width: 350px;
+    }
+    .who-are-we{
+        margin-left: 70px;
+    }
+    .who-are-we-1{
+        margin-left: 40px;
+    }
+    .who-are-we-2{
+        width: 250px;
+    }
+    .what-we-do{
+        margin-top: -30px;
+    }
+    .what-we-do-img{
+        margin-top: 200px;
+        margin-left: 25%;
+    }
+    .what-we-do-text{
+        margin-left: 70px;
+    }
+
+    .content-list{
+        margin-left: 10px;
+        width: 350px;
+    }
+
+
+    .ideal-img img{
+        display: none;
+    }
+    .strategy-img img{
+        display: none;
+    }
+
+    .design-img img {
+        display: none;
+    }
+    .development-img img {
+        display: none;
+    }
+    .product-img img {
+        display: none;
+    }
+    .line-text-ideal{
+        display: none;
+    }
+    
+}
+
+@media screen and (max-width:285px) {
+    .background-header-picture-1 img{
+        width: 250px;
+        margin-left: 220px;
+    }
+
+    .content-body-container{
+        width: 300px;
+    }
+    .what-we-do{
+        width: 200px;
+    }
+    .who-are-we-1{
+        width: 200px;
+        margin-left: 60px;
+        font-size: 40px;
+    }
+    .who-are-we-2{
+        width: 200px;
+        font-size: 40px;
+        margin-left: 100px;
+    }
+
+    .who-are-we-text{
+        font-size: 17px;
+        margin-left: 150px;
+        width: 200px;
+    }
+    .button-read-more{
+        margin-left: 150px;
+    }
+    .what-we-do-img{
+        margin-top: 280px;
+        margin-left: 10px;
+    }
+    .what-we-do-text{
+        width: 150px;
+            margin-left: 70px;
+    }
+   
+    .content-list{
+        width: 260px;
+        margin: 0;
+
+    }
+    .ideal{
+        margin-top: 100px;
+    }
+    .ideal-icon {
+        margin: 10px;
+    }
+    .ideal-title-text{
+        margin: 0;
+    } 
+
+    .strategy-icon{
+        margin: 10px;
+    }
+    .strategy-title-text{
+        margin: 0;
+    }
+
+    .design-icon{
+        margin: 10px;
+    }
+    .design-title-text{
+        margin: 0;
+    }
+
+    .development-icon{
+        margin: 10px;
+    }
+    .development-title-text{
+        margin: 0;
+    }
+
+    .product-icon{
+        margin: 10px;
+    }
+    .product-title-text{
+        margin: 0;
+    }
+
+
+}
+
+/* OUR SERVICES */  
