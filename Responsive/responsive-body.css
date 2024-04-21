@@ -1,4 +1,7 @@
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1025px) {
+    .development-line{
+        display: none;
+    }
     .content-body {
         margin-left: 100px;
         margin-top: -1800px;
@@ -332,7 +335,7 @@
 
 @media screen and (max-width: 496px) {
     .background-header-picture-1 img{
-        width: 350px;
+        width:350px;
         margin-top: 150px;
         margin-left: 290px;
     }
@@ -419,7 +422,6 @@
         margin-top: 200px;
         margin-left: 230px;
     }
-
     .who-are-we{
         margin-top: 10px;
     }
@@ -464,6 +466,16 @@
 
 
 @media screen and (max-width:395px) {
+    .background-header-picture-1 img{
+        width:250px;
+        margin-top: 200px;
+        margin-left: 270px;
+    }
+
+    .logo img{
+        margin-left: -20px;
+    }
+
     .content-body-container{
         width: 350px;
     }
@@ -515,10 +527,119 @@
     
 }
 
+@media screen and (max-width:360px){
+    .what-we-do-img{
+        margin-top: 300px;
+        margin-left: 0;
+    }
+    .what-we-do-text-0{
+        font-size: 28px;
+    }
+    .what-we-do-text-1{
+        font-size: 14px;
+    }
+    .what-we-do-text{
+        margin-left: 40px;
+    }
+
+    .content-list{
+        width: 200px;
+    }
+    .ideal-icon{
+        width: 60px;
+    }
+    .ideal-title-text{
+        width: 100px;
+        font-size: 14px;
+    }
+    .strategy-icon{
+        width: 60px;
+    }
+    .strategy-title-text{
+        width: 100px;
+        font-size: 14px;
+    }
+    .design-icon{
+        width: 60px;
+    }
+    .design-title-text{
+        width: 100px;
+        font-size: 14px;
+    }
+    .development-icon{
+        width: 60px;
+    }
+    .development-title-text{
+        width: 100px;
+        font-size: 14px;
+    }
+    .product-icon{
+        width: 60px;
+    }
+    .product-title-text{
+        width: 100px;
+        font-size: 14px;
+    }
+
+}
+
+@media screen and (max-width: 332px) {
+    .background-header-picture-1 img{
+        margin-left: 250px;
+    }
+
+    .logo img{
+        width: 100px;
+        margin-left: 10px;
+    }
+
+    .Solgan{
+        top: 100px;
+    }
+    .btn-follow button{
+        width: 90px;
+        height: 30px;
+        top: 200px;
+    }
+    .who-are-we-1{
+        font-size: 40px;
+    }
+    .who-are-we-2
+    {
+        font-size: 40px;
+    }
+    .who-are-we-text{
+        margin-left: 150px;
+    }
+
+    .icon{
+        top: 240px;
+    }
+
+    .icon-item img {
+        margin-right: 5px;
+    }
+}
 @media screen and (max-width:285px) {
     .background-header-picture-1 img{
         width: 250px;
         margin-left: 220px;
+    }
+    .logo img{
+        width: 100px;
+    }
+
+    .Solgan{
+        top: 100px;
+    }
+    .btn-follow button{
+        width: 90px;
+        height: 20px;
+        top: 160px;
+        font-size: 6px;
+    }
+    .icon{
+        top: 190px;
     }
 
     .content-body-container{
@@ -602,3 +723,205 @@
 }
 
 /* OUR SERVICES */  
+@media screen and (max-width:1285px) {
+    .container-our-services{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .our-services-banner-img{
+        margin-top: 100px;
+        order: -1;
+    }
+    .our-services-1{
+        margin: 0;
+    }
+    .container-our-services-2{
+        margin-top: 100px;
+    }
+    .our-services-2{
+        flex-direction: column;
+        margin: 0;
+        text-align: center;
+    }
+    .our-services-2-icon{
+        margin: 0;
+    }
+
+}
+
+@media screen and (max-width:900px) {
+        .our-services-banner-img img{
+            width: 550px;
+        }
+        .our-services-1{
+            width: 500px;
+        }
+        .our-services-1-our{
+            font-size: 92px;
+        }
+        .our-services-1-services{
+            font-size: 86px;
+            margin-left: 40px;
+        }
+}
+
+@media screen and (max-width:750px) {
+    .our-services-banner-img img{
+        margin-top: 100px;
+        width: 450px;
+    }
+
+    .our-services-1{
+        width: 400px;
+    }
+    .our-services-1-our{
+        font-size: 72px;
+    }
+    .our-services-1-services{
+        font-size: 66px;
+        margin-left: 40px;
+    }
+
+}
+
+@media screen and (max-width:650px) {
+    .our-services-banner-img img{
+        margin-top: 200px;
+        width: 400px;
+    }
+
+    .our-services-1{
+        margin-top: -100px;
+        width: 300px;
+    }
+    .our-services-1-our{
+        font-size: 62px;
+    }
+    .our-services-1-services{
+        font-size: 56px;
+        margin-left: 40px;
+    }
+
+}
+
+@media screen and (max-width:550px) {
+    .our-services-banner-img img{
+        margin-left: -80px;
+        margin-top: 150px;
+        width: 300px;
+    }
+    .our-services-1{
+        margin-left: -20px;
+    }
+    .our-services-1-our{
+        font-size: 52px;
+        line-height: 0;
+    }
+    .our-services-1-services{
+        font-size: 46px;
+        margin-left: 40px;
+    }
+}
+@media screen and (max-width:493px) {
+    .our-services-banner-img img{
+        /* margin-left: -80px; */
+        margin-top: 750px;
+        /* width: 300px; */
+    }
+
+}
+
+@media screen and (max-width:487px) {
+    .our-services-banner-img img{
+        /* margin-left: -80px; */
+        margin-top: 100px;
+        /* width: 300px; */
+    }
+
+    .container-our-services-2{
+        margin-left: -50px;
+    }
+}
+
+@media screen and (max-width:435px) {
+    .our-services-banner-img img{
+        margin-top: 400px;
+    }
+
+    .our-services-1-our{
+        font-size: 42px;
+        line-height: 0;
+    }
+    .our-services-1-services{
+        font-size: 36px;
+        margin-left: 40px;
+    }
+    .our-services-1{
+        margin-top: -100px;
+        width: 250px;
+    }
+
+    .our-services-1-text{
+        font-size: 14px;
+    }
+
+    .our-services-2-text{
+        font-size: 14px;
+    }
+} 
+
+@media screen and (max-width:380px) {
+    .our-services-banner-img img{
+        width: 250px;
+    }
+
+    .our-services-1-our{
+        font-size: 32px;
+    }
+    .our-services-1-services{
+        font-size: 26px;
+    }
+    .our-services-1{
+        margin-top: -100px;
+        width: 200px;
+    }
+
+    .our-services-2-title{
+        font-size: 16px;
+    }
+
+    .our-services-1-text{
+        font-size: 12px;
+    }
+
+    .our-services-2-text{
+        font-size: 14px;
+    }
+}
+@media screen and (max-width:365px) {
+    .what-we-do-img{
+        margin-left: 60px;
+    }
+
+    .our-services-banner-img{
+        margin-top: 800px;
+    }
+}
+
+@media screen and (max-width:345px) {
+    .our-services-2-icon{
+        margin: 0;
+    }
+}
+
+@media screen and (max-width:290px){
+    .our-services-banner-img{
+        margin-top: 350px;
+    }
+
+    .our-services-1{
+        margin-left: -60px;
+    }
+}

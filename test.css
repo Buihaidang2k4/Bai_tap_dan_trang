@@ -1,6 +1,18 @@
-.Line{
-    margin-top: 100px;
-    background-color: black;
-    width: 1000px;
-    height: 5px;
-}
+/* .box {
+    width: 200px;
+    height: 200px;
+    background-color: #f0f0f0;
+    box-shadow: 5px 5px 10px 0px rgba(169, 81, 81, 0.5);
+  }
+   */
+   .box{
+    width: 200px; /* Chiều rộng của phần tử */
+    height: 200px; /* Chiều cao của phần tử */
+    border-radius: 50%; /* Đặt bán kính của border là 50%, biến nó thành hình tròn */
+    border: 1px solid #3f3b3b; /* Thiết lập độ dày và màu sắc của border */
+    box-shadow: 5px 5px 10px 0px rgba(92, 146, 200, 0.5);
+    background-color: #f0f0f0;
+
+
+  }
+  

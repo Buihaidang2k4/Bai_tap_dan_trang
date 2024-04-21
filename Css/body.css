@@ -1,130 +1,182 @@
-
-*{
-    font-family: 'Gilroy', sans-serif;
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+* {
+  font-family: "Gilroy", sans-serif;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 .content-body {
-    margin-top: -950px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    z-index: -1;
-    
+  margin-top: -950px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  z-index: -1;
 }
 
 .background-header-picture-1 {
-    z-index: 3;
+  z-index: 3;
 }
-.what-we-do{
-    position: relative;
+.what-we-do {
+  position: relative;
 }
 
 .who-are-we-1 {
-    text-align: center;
-    color: #0061B0;
-    font-size: 100px;
-    font-weight: 700;
-    z-index: 3;
+  text-align: center;
+  color: #0061b0;
+  font-size: 100px;
+  font-weight: 700;
+  z-index: 3;
 }
 
 .who-are-we-2 {
-    margin-left: 200px;
-    color: #908B8B;
-    font-size: 86px;
-    font-weight: 400;
-    z-index: 3;
+  margin-left: 200px;
+  color: #908b8b;
+  font-size: 86px;
+  font-weight: 400;
+  z-index: 3;
 }
 
 .who-are-we-text {
-    margin-left: 100px;
-    align-items: center;
-    width: 420px;
-    font-size: 18px;
-    z-index: 3;
+  margin-left: 100px;
+  align-items: center;
+  width: 420px;
+  font-size: 18px;
+  z-index: 3;
 }
 
 .button-read-more {
-    font-size: 16px;
-    border: none;
-    background-color: #0061B0;
-    width: 143px;
-    height: 47px;
-    margin-top: 20px;
-    margin-left: 100px;
-    box-shadow: 0px 4px 6px 0px #00000033;
-    border-radius: 2px;
-    
+  font-size: 16px;
+  border: none;
+  background-color: #0061b0;
+  width: 143px;
+  height: 47px;
+  margin-top: 20px;
+  margin-left: 100px;
+  box-shadow: 0px 4px 6px 0px #00000033;
+  border-radius: 2px;
 }
 
 .button-read-more a {
-    color: aliceblue;
+  color: aliceblue;
 }
 
-.what-we-do{
-    margin-top: 100px;
-    display: flex;
-    flex-direction: column;
+.what-we-do {
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
 }
-.what-we-do-img{
-    text-align: center;
-    align-items: flex-start;
-}
-
-.what-we-do-text{
-    margin-top: 10px;
-    text-align: center;
+.what-we-do-img {
+  text-align: center;
+  align-items: flex-start;
 }
 
-.what-we-do-text-0{
-    font-size: 48px;
+.what-we-do-text {
+  margin-top: 10px;
+  text-align: center;
 }
-.what-we-do-text-1{
-    font-size: 16px;
+
+.what-we-do-text-0 {
+  font-size: 48px;
 }
-.content-list{
-    margin-top: 100px;
-    display: flex;
-    flex-direction: row;
-    text-align: center;
-    margin-right: 100px;
-    margin-left: 100px;
-    gap: 30px;
+.what-we-do-text-1 {
+  font-size: 16px;
+}
+.content-list {
+  margin-top: 100px;
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  margin-right: 100px;
+  margin-left: 100px;
+  gap: 30px;
 }
 
 .ideal-title {
-    margin: 10px 0;
+  margin: 10px 0;
 }
-.ideal-img{
-    position: relative;
+.ideal-img {
+  position: relative;
 }
-.line-text-ideal{
-    position: absolute;
-    top: 12px;
-    width: 1084px;
-    left: 120px;
-    height: 2px;
-    background-color: black;
-    z-index: -1;
+.line-text-ideal {
+  position: absolute;
+  top: 12px;
+  width: 1084px;
+  left: 120px;
+  height: 2px;
+  background-color: black;
+  z-index: -1;
 }
-.strategy-title{
-    margin: 10px 0;
-  
-}
-
-.design-title{
-    margin: 10px 0;
-
+.strategy-title {
+  margin: 10px 0;
 }
 
-.development-title{
-    margin: 10px 0;
-   
+.design-title {
+  margin: 10px 0;
 }
 
-.product-title{
-    margin: 10px 0;
+.development-title {
+  margin: 10px 0;
+}
 
-} 
+.product-title {
+  margin: 10px 0;
+}
 
+
+/* OUR SERVICES */
+
+.container-our-services{
+    margin-top: 100px;    
+    margin-left: 100px;
+    display: flex;
+    flex-direction: row;
+}
+
+.our-services-list{
+    margin-top: 250px;
+}
+.our-services-1{
+    margin-bottom: 100px;
+    width: 600px;
+}
+
+.our-services-1-our{
+    font-family: "Gilroy",sans-serif;
+    font-size: 120px;
+    font-weight: 700;
+    line-height: 100.56px;
+    color: #0061B0;
+
+}
+.our-services-1-services{
+    font-family: "Gilroy",sans-serif;
+    font-size: 96px;
+    color: #908B8B;
+    font-weight: 400;
+    margin-left: 100px;
+}
+.our-services-1-text{
+    font-size: 18px;
+    font-weight: 400;
+    font-family: "Gilroy",sans-serif;
+}
+.our-services-2{
+    display: flex;
+    flex-direction: row;
+}
+.container-our-services-2{
+    margin-left: 10px;
+    margin-right: 50px;
+}
+.our-services-2-icon{
+    margin-left: 40px;
+}
+
+.our-services-2-title{
+    justify-content: center;
+    font-size: 18px;
+    font-weight: bolder;
+}
+.our-services-2-text{
+    margin: 0px;
+    font-size: 14px;
+}
