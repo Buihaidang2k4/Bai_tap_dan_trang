@@ -931,8 +931,8 @@
     }
 }
 
-
 /* APPLICATION DEVELOPMENT */
+
 @media screen and ( max-width: 1250px){
     .application-development-1 {
         flex-direction: column;
@@ -1100,4 +1100,72 @@
         left: 130px;
         height: 330px;
     }
+} 
+
+/* box-sumbit */
+@media screen and ( max-width: 1200px){
+    .list-submit{
+        display: flex;
+        flex-direction: column;
+
+    }    
+    .box-sumbit {
+        width: 432px;
+        height: 711px;
+        margin-left: 30%;
+    }
+    .box-sumbit-text{
+    font-size: 38px;
+    width: 200px;
+    text-align: center;
+      }
+    .input-text{
+        margin-bottom: 20px;
+    }
+    .button-text{
+        margin-top: 10px;
+    }
+}
+@media screen and ( max-width: 768px){
+    
+}
+@media screen and ( max-width: 540px){
+    .box-sumbit{
+        width: 332px;
+        margin-left: 100px;
+    }
+}
+@media screen and ( max-width: 440px){
+    .box-sumbit{
+        margin-left: 50px;
+    }
+
+}
+
+@media screen and ( max-width: 390px){
+    .box-sumbit{
+        margin-left: 10px;
+    }
+}
+@media screen and ( max-width: 391px){
+    .box-sumbit{
+        margin-left: 20px;
+    }
+
+}
+
+@media screen and ( max-width: 350px){
+    .box-sumbit{
+        width: 290px;
+        margin-left: 10px;
+    }
+
+}
+
+@media screen and ( max-width: 290px){
+    .box-sumbit{
+        width:260px ;
+        margin-left: 10px;
+    }
+
 }
