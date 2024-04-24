@@ -443,6 +443,63 @@
   transform: rotate(145deg); 
 }
 
+/* Meet our team */
+.meet-our-team{
+  width: 100%;
+  margin-top: 200px;
+}
+.meet-our-team-header{
+  text-align: center;
+  margin-bottom: 50px;
+}
+.meet-our-team-header-title{
+  font-size: 60px;
+  font-weight: bold;
+}
+.meet-our-team-header-introduce{
+  font-size: 25px;
+}
+.meet-our-team-body{
+  margin: 0 50px;
+}
+.meet-our-team-body-inner{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.carousel-inner{
+  display: flex;
+}
+.card-style-wrapper{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 0 100px;
+  margin-bottom: 20px;
+}
+.card-style{
+  border: none;
+  text-align: center;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  margin: 0 20px;
+  border-radius: 10px;
+  img{
+      border-top-left-radius: 10px;
+      border-top-right-radius: 10px;
+  }
+}
+#carousel-meet-our-teem .carousel-indicators{
+  bottom: -50px;
+  button{
+      background-color: rgb(168, 168, 168);
+  }
+  .active{
+      background-color: #0061B0;
+  }
+}
+
 /* OUR GOALS */
 .container-our-goals{
     position: relative;
@@ -506,4 +563,8 @@
   top: -100px;
   height: 750px;
   z-index: -1;
+}
+.list-slide-our-goals{
+  position: relative;
+  margin-top: 716px;
 }

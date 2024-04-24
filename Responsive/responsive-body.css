@@ -1353,3 +1353,8 @@
 
 
 /* our goals */
+@media screen and (max-width:1200px) {
+    .container-our-goals{
+        display: none;
+    }
+}

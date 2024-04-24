@@ -1,9 +1,11 @@
-@media screen and (max-width:1024px) {
+@media screen and (max-width:1025px) {
     .icon-footer img {
         top: 80px;
         width: 90px;
     }
-
+    .footer-bg img{
+        height: 1250px;
+    }
     .footer-banner-text {
         top: 280px;
         display: flex;
@@ -103,6 +105,7 @@
         font-size: 18px;
         top: 800px;
         left: 450px;
+        
     }
 }
 
