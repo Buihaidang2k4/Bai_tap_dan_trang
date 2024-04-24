@@ -1,5 +1,6 @@
+ /* SOFWARE DEVELOPMENT */ 
 
-.container-application-development {
+.container-sofware-development {
     display: flex;
     flex-direction: column;
     margin-top: 100px;
@@ -7,29 +8,30 @@
     z-index: 1;
   }
   
-  .application-development-1 {
+  .sofware-development-1 {
     display: flex;
     flex-direction: row;
   } 
   
-  .application-development-1-square {
+  .sofware-development-1-square {
     margin-top: 200px;
     left: 0;
   }
   
-  .application-development-1-title {
+  .sofware-development-1-title {
     font-size: 86px;
     font-weight: 400;
     line-height: 111.2px;
-    text-align: left;
+    text-align: right;
     font-family: "Gilroy", sans-serif;
+    margin-left: 200px;
   }
   
-  .application-development-1-text {
-    margin-left: 300px;
+  .sofware-development-1-text img{
+    margin-left: 350px;
   }
   
-  .application-development-1-text span {
+  .sofware-development-1-text span {
     font-family: "Gilroy", sans-serif;
     font-size: 24px;
     font-weight: 100;
@@ -37,12 +39,12 @@
     text-align: center;
   }
   
-  .application-development-2 {
+  .sofware-development-2 {
     display: flex;
     flex-direction: row;
     justify-content: center;
   }
-  .application-development-2-circle-1 {
+  .sofware-development-2-circle-1 {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -50,11 +52,11 @@
     margin-top: 40px;
   }
   
-  .application-development-2-icon img{
+  .sofware-development-2-icon img{
     width: 62px;
   }
   
-  .application-development-2-start-end{
+  .sofware-development-2-start-end{
     border-radius: 50%;
     border: 4px solid #908B8B;
     width: 330px;
@@ -62,18 +64,18 @@
     overflow: hidden;
   }
   
-  .application-development-2-title {
+  .sofware-development-2-title {
     margin-top: 10px;
     margin-bottom: 10px;
   }
   
-  .application-development-2-text{
+  .sofware-development-2-text{
     width: 200px;
     text-align: center;
   }
   
   
-  .application-development-2-mid{
+  .sofware-development-2-mid{
     border-radius: 50%;
     box-shadow: 0px 4px 60px -5px #0061B0;
     border: 4px solid #0163B3;
@@ -86,7 +88,7 @@
     position: relative; 
   }
   
-  .application-development-2-line{
+  .sofware-development-2-line{
     position: absolute;
     z-index: -1;
     border: 1px solid #0163B3;
@@ -94,7 +96,7 @@
     top: -130px;
     left: 190px;
     height: 600px;
-    transform: rotate(35deg); 
+    transform: rotate(145deg); 
   }
   
 
