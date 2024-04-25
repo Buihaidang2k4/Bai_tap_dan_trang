@@ -1,0 +1,365 @@
+@media screen and (max-width:1280px) {
+    div[class="icon-submit"]{
+        display: none;
+    }
+    
+    .form-submit{
+        left: 20%;
+    }
+    .message-for-maiatech{
+        left: 500px;
+    }
+    footer{
+        margin-top: 1000px;
+    }
+}
+
+@media screen and (max-width:1080px) {
+
+    .form-submit{
+        left: 10%;
+    }
+    .message-for-maiatech{
+        left: 20%;
+    }
+    footer{
+        margin-top: -300px;
+    }
+}
+
+@media screen and (max-width:950px) {
+    footer{
+        margin-top: 0px;
+    }
+    .form-submit{
+        left: 17%;
+    }
+    .form-submit{
+        width: 600px;
+    }
+
+    .input-submit input{
+        width: 66%;
+    }
+
+    .form-submit-body {
+        margin-left: 30px;
+    }
+
+    .input-textarea textarea {
+        width: 376px;
+        margin-left: -10px;
+    }
+
+    .input-textarea div {
+        margin-left: -300px;
+    }
+    .button-btn-submit button{
+        margin-left: 70px;
+    }
+
+    .message-for-maiatech{
+        .message-for-maiatech-1{
+            margin-left: 100px;
+            font-size: 76px;
+        }
+
+        .message-for-maiatech-2{
+            font-size: 76px;
+        }
+    }
+}
+
+@media screen and (max-width:854px) {
+    .form-submit{
+        top: 70%;
+        left: 27%;
+    }
+    .form-submit{
+        width: 450px;
+    }
+    .input-submit {
+        width: 361px;
+    }
+    .input-submit input{
+        width: 66%;
+    }
+
+    .form-submit-body {
+        margin-left: 50px;
+    }
+
+    .input-textarea{
+        width: 246px;
+        margin-left: 70px;
+    }
+    .input-textarea textarea {
+        width: 246px;
+        height: 140px;
+    }
+
+    .input-textarea div {
+        margin-left: -100px;
+    }
+    .button-btn-submit{
+        width: 100px;
+        margin-left: -0px;
+    }
+
+    .message-for-maiatech{
+        width: 430px;
+        .message-for-maiatech-1{
+            margin-left: 0px;
+            font-size: 76px;
+        }
+
+        .message-for-maiatech-2{
+            font-size: 76px;
+            left: 100px;
+            margin-top: -20px;
+            width: 300px;
+        }
+
+        .message-for-maiatech-3{
+            left: 0;
+            margin-left: 250px;
+            width: 180px;
+        }
+    }
+
+
+}
+@media screen and (max-width:770px) {
+    .form-submit{
+        top: 50%;
+    }
+    .message-for-maiatech{
+        top: 180%;
+    }
+}
+@media screen and (max-width:740px) {
+    .form-submit{
+        top: 80%;
+        left: 20%;
+    }
+    .message-for-maiatech{
+        top: 240%;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .form-submit{
+        left: 15%;
+    }
+
+    .message-for-maiatech{
+        /* top: 230%; */
+        width: 430px;
+        .message-for-maiatech-1{
+            font-size: 66px;
+        }
+
+        .message-for-maiatech-2{
+            font-size: 66px;
+            left: 100px;
+            margin-top: -40px;
+        }
+
+        .message-for-maiatech-3{
+            margin-left: 200px;
+    }
+}
+
+@media screen and (max-width:590px) {
+    footer{
+        margin-top: 300px;
+    }
+
+    .form-submit{
+        left: 10%;
+    }
+    .message-for-maiatech{
+        width: 350px;
+        .message-for-maiatech-1{
+            font-size: 56px;
+        }
+
+        .message-for-maiatech-2{
+            font-size: 56px;
+            left: 100px;
+            margin-top: -40px;
+        }
+
+        .message-for-maiatech-3{
+            margin-top: 40px;
+            margin-left: 150px;
+    }
+}
+
+
+@media screen and (max-width:520px) {
+    footer{
+        margin-top: 10px;
+    }
+    .form-submit{
+        top: 50%;
+        width: 300px;
+        height: 900px;
+        left: 20%;
+    }
+
+    .form-submit-body{
+        margin: 0;
+    }
+
+    .input-submit{
+        width: 300px;
+    }
+
+    .input-textarea{
+        width: 300px;
+        margin: 0;
+    }
+
+    .input-textarea textarea{
+        width: 200px;
+    }
+
+    .button-btn-submit{
+        margin-left: -20px;
+    }
+    .button-btn-submit button{
+        width: 180px
+    }
+
+    .message-for-maiatech{
+        top: 130%;
+        width: 350px;
+        .message-for-maiatech-1{
+            font-size: 56px;
+        }
+
+        .message-for-maiatech-2{
+            font-size: 56px;
+            left: 100px;
+            margin-top: -40px;
+            width: 100px;
+        }
+
+        .message-for-maiatech-3{
+            margin-top: 40px;
+            margin-left: 150px;
+    }
+}
+/* @media screen and (max-width:475px) {
+    .message-for-maiatech{
+        top: 160%;
+    }
+} */
+@media screen and (max-width:452px) {
+    
+
+    .message-for-maiatech{
+        width: 250px;
+        .message-for-maiatech-1{
+            font-size: 36px;
+        }
+
+        .message-for-maiatech-2{
+            font-size: 36px;
+            left: 100px;
+            margin-top: -70px;
+            width: 100px;
+        }
+
+        .message-for-maiatech-3{
+            width: 140px;
+            margin-top: 10px;
+            margin-left: 110px;
+            font-size: 13px;
+        }
+    }
+}
+
+@media screen and (max-width:431px) {
+    .form-submit{
+        left: 15%;
+    }
+
+    .message-for-maiatech{
+        top: 160%;
+    }
+}
+
+@media screen and (max-width:415px) {
+    .message-for-maiatech{
+        top: 170%;
+    }
+}
+
+@media screen and (max-width:385px) {
+    .form-submit{
+        width: 250px;
+        height: 800px;
+    }
+
+    .input-submit{
+        margin-top: 100px;
+        width: 250px;
+    }
+    .input-textarea{
+        width: 250px;
+    }
+
+    .input-textarea textarea{
+        width: 175px;
+        height: 100px;
+    }
+
+    .button-btn-submit{
+        width: 250px;
+        margin: 0;
+        margin-left: -40px;
+    }
+
+    .button-btn-submit button{
+        width: 180px;
+    }
+}
+@media screen and (max-width:376px) {
+    footer{
+        margin-top: -300px;
+    }
+    .message-for-maiatech{
+        top: 190%;
+    }
+
+}
+@media screen and (max-width:365px) {
+    .message-for-maiatech{
+        top: 170%;
+    }
+}
+
+
+@media screen and (max-width:345px) {
+    .message-for-maiatech{
+        top: 150%;
+        left: 50px;
+        .message-for-maiatech-1{
+            font-size: 26px;
+        }
+        .message-for-maiatech-2{
+            font-size: 26px;
+            margin-top: -80px;
+        }
+        .message-for-maiatech-3{
+            margin-top: -20px;
+            font-size: 10px;
+        }
+
+    }
+
+}
+
+

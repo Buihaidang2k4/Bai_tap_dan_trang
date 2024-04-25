@@ -39,7 +39,7 @@
     .banner-text-end {
         top: 750px;
         left: 250px;
-        width: 800px;
+        width: 700px;
         display: flex;
         flex-direction: row;
         gap: 40px;
@@ -54,7 +54,6 @@
         margin-top: 20px;
         letter-spacing: 15px;
         text-align: center;
-
     }
 
     .banner-text-end-1 .banner-logo {
@@ -304,10 +303,10 @@
     }
 }
 
-@media screen and (max-width:850px) {
+@media screen and (max-width:854px) {
 
     .banner-text-end {
-        top: 600px;
+        top: 700px;
         width: 600px;
         left: 110px;
     }
@@ -316,8 +315,11 @@
         width: 600px;
     }
 
+    .banner-text-end-2{
+        line-height: 22px;
+    }
     .footer-icon-end-top{
-        top: 290px;
+        top: 210px;
     }
     .footer-icon-end-right{
         top: 450px;
@@ -343,23 +345,24 @@
 
     .overlay {
         top: 182px;
-        height: 320px;
+        height: 400px;
     }
     .footer-banner-overlay img {
         top: 182px;
-        height: 320px;
+        height:400px;
     }
 
     .footer-banner-text{
-        top: 200px;
+        top: 220px;
     }
     
     .banner-text-end{
-        top: 550px;
+        top: 650px;
     }
 
+
     .footer-icon-end-top{
-        top: 202px;
+        top: 199px;
     }
     .footer-icon-end-right{
         top: 380px;
@@ -381,7 +384,7 @@
     }
 
     .banner-text-end{
-        top: 530px;
+        top: 730px;
     }
     .footer-icon-end-top{
         top: 216px;
@@ -392,19 +395,17 @@
         top: 350px;
     }
     .footer-icon-end-right{
-            top: 350px;
+        top: 350px;
     }
 
     .footer-icon-end-bottom{
-        top: 500px;
+        top: 800px;
         left: 40px;
     }
     .copyright{
-        top: 560px;
+        top: 860px;
     }
 }
-
-
 @media screen and (max-width:740px){
     .footer-bg img{
         height: 1500px;
