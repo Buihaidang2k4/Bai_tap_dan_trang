@@ -1,3 +1,9 @@
+@media screen and (max-width: 1290px){
+    .footer-icon-end-top-0{
+        display: none;
+    }
+}
+
 @media screen and (max-width:1025px) {
     .icon-footer img {
         top: 80px;
