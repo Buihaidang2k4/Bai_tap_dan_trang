@@ -296,7 +296,6 @@
   border-radius: 10px;
   display: flex;
   flex-direction: column;
-
 }
 .box-sumbit-text {
   font-size: 48px;
@@ -322,12 +321,13 @@
   border: none;
   background-color:  #33A3FF;
   color: rgb(255, 255, 255);
+  border-radius: 3px;
 }
 
 .button-text{
   width: 221px;
   height: 54px;
-  border-radius: 3px 0px 0px 0px;
+  border-radius: 3px;
   border: none;
 }
 
@@ -361,17 +361,19 @@
   line-height: 111.2px;
   text-align: right;
   font-family: "Gilroy", sans-serif;
-  margin-left: 100px;
+  margin-right: 100px;
+  display: block;
 }
 
 .sofware-development-1-text {
   display: flex;
   justify-content: center;
-
 }
 
 .sofware-development-1-text img{
   position: absolute;
+  top: 10px;
+  left: 560px;
 }
 
 .sofware-development-1-text span {
@@ -513,9 +515,10 @@
 }
 .our-goals-1-title{
   line-height: 70px;
-  margin-top: 50px;
-  
+  margin-top: 20px;
+  margin-left: 50px;
 }
+
 .our-goals-1-title-1{
   margin-top: 100px;
   margin-left: -100px;
@@ -530,13 +533,14 @@
 
 .our-goals-1-text{
   font-size: 24px;
-  margin-left: 300px;
-  margin-top: 100px;
+}
+.container-our-goals-2{
+  width: 100%;
+ display: flex;
+ justify-content: center;
 }
 .our-goals-2{
   position: absolute;
-  margin-top: -100px;
-  margin-left: 100px;
   width: 1234px;
   height: 750px;
   border-radius: 5px 0px 0px 0px;
@@ -566,5 +570,5 @@
 }
 .list-slide-our-goals{
   position: relative;
-  margin-top: 716px;
+  margin-top: 816px;
 }
