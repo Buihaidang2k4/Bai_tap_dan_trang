@@ -46,7 +46,7 @@
 .button-read-more {
   font-size: 16px;
   border: none;
-  background-color: #0061b0;
+  background-image: linear-gradient(to right,#0061B0,#016DC6,#048BFA);
   width: 143px;
   height: 47px;
   margin-top: 20px;
@@ -288,7 +288,6 @@
 }
 .box-sumbit {
   margin-top: 100px;
-  margin-left: 150px;
   background-color: #0061B0;
   width: 1234px;
   height: 269px;
@@ -347,6 +346,7 @@
   flex-direction: row;
   margin-bottom: 150px;
   justify-content: center;
+  align-items: center;
 } 
 
 .sofware-development-1-square {
@@ -367,7 +367,7 @@
 .sofware-development-1-text {
   display: flex;
   justify-content: center;
-  width: 100%;
+
 }
 
 .sofware-development-1-text img{
