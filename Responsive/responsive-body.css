@@ -197,9 +197,13 @@
         margin-top: 120px;
         margin-left: 150px;
     }
-
+    .what-we-do{
+        width: 100%;
+        display: flex;
+    }
     .what-we-do-img {
-        left: 330px;
+        text-align: center;
+        margin: 0;
     }
 
 
@@ -258,12 +262,11 @@
     .content-body-container {
         width: 500px;
     }
-
-    .what-we-do-img {
-        width: 400px;
-        margin-top: 80px;
-        margin-left: 160px;
+    .what-we-do-img img{
+        margin-top: 50px;
+        width: 300px;
     }
+   
     .line-text-ideal {
         top: 9px;
         height: 686px;
@@ -301,7 +304,7 @@
     }
 
     .what-we-do-img {
-        margin-left: 150px;
+        margin-top: 60px;
     }
     .line-text-ideal {
         height: 786px;
@@ -322,8 +325,7 @@
     }
 
     .what-we-do-img {
-        margin-top: -50px;
-        margin-left: 100px;
+        margin-top: 0px;
     }
 
     .what-we-do-text {
@@ -395,17 +397,12 @@
     .content-list{
         width: 300px;
     }
-    .what-we-do{
-        width: 300px;
-    }
-    .what-we-do-img img{
-        width: 200px;
-        margin-top: -100px;
-        margin-left: -100px;
-    }
     .what-we-do-text{
         margin-left: 100px;
         width: 300px;
+    }
+    .what-we-do-img{
+        margin-top: -50px;
     }
     .line-text-ideal{
         height: 1360px;
@@ -414,9 +411,7 @@
 
 @media screen and (max-width: 490px) {
     .what-we-do-img{
-        width: 70px;
-        margin-top: 70px;
-        margin-left: 250px;
+        margin-top: 0px;
     }
     .what-we-do-text{
         margin-left:70px;
@@ -472,10 +467,6 @@
     .who-are-we{
         margin-top: 10px;
     }
-    .what-we-do-img img{
-        margin-top: -200px;
-        margin-left: 50%;
-    }
     .who-are-we-1{
         font-size: 60px;
     }
@@ -493,7 +484,7 @@
         width: 250px;
     }
     .what-we-do-img{
-        margin-left:  60px;
+        margin-top: -30px;
     }
     .what-we-do-text-0{
         font-size: 38px;
@@ -539,8 +530,11 @@
         margin-top: -30px;
     }
     .what-we-do-img{
-        margin-top: 200px;
-        margin-left: 25%;
+        margin-top: 100px;
+    }
+
+    .what-we-do-img img{
+        width: 200px;
     }
     .what-we-do-text{
         margin-left: 70px;
@@ -576,7 +570,6 @@
 
 @media screen and (max-width:360px){
     .what-we-do-img{
-        margin-top: 300px;
         margin-left: 0;
     }
     .what-we-do-text-0{
@@ -776,18 +769,50 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        width: 100%;
+        margin-left: 0;
     }
     .our-services-banner-img{
         margin-top: 100px;
         order: -1;
+        margin-left: 0;
+        text-align: center;
+    }
+    .our-services-list{
+        width: 100%;
     }
     .our-services-1{
-        margin: 0;
+        width: 100%;
+        display: block;
+        margin: 0 auto;  
+        justify-content: center;
     }
+
+    .our-services-1-our{
+        display: block;
+        margin: 0 auto;
+        width: 600px;
+    }
+
+    .our-services-1-services{
+        display: block;
+        margin: 0 auto;
+        width: 500px;
+    }
+
+    .our-services-1-text{
+        display: block;
+        margin: 0 auto;
+        width: 600px;
+    }
+
     .container-our-services-2{
         margin-top: 100px;
+        margin-left: 0;
+        margin-right: 0;
     }
     .our-services-2{
+        display: flex;
         flex-direction: column;
         margin: 0;
         text-align: center;
@@ -814,15 +839,28 @@
         }
 }
 
-@media screen and (max-width:750px) {
+@media screen and (max-width:755px) {
+
     .our-services-banner-img img{
         margin-top: 100px;
         width: 450px;
     }
 
-    .our-services-1{
+
+    .our-services-1-our{
+        width: 400px;
+        margin-bottom: -50px;
+        margin-left: 0;
+    }
+
+    .our-services-1-services{
         width: 400px;
     }
+
+    .our-services-1-text{
+        width: 450px;
+    }
+
     .our-services-1-our{
         font-size: 72px;
     }
@@ -850,45 +888,46 @@
         font-size: 56px;
         margin-left: 40px;
     }
+    .our-services-1-text{
+        width: 380px;
+    }
 
 }
 
 @media screen and (max-width:550px) {
     .our-services-banner-img img{
-        margin-left: -80px;
         margin-top: 150px;
         width: 300px;
-    }
-    .our-services-1{
-        margin-left: -20px;
     }
     .our-services-1-our{
         font-size: 52px;
         line-height: 0;
+        margin-bottom: -10px;
+        width: 300px;
+        
     }
     .our-services-1-services{
         font-size: 46px;
         margin-left: 40px;
+        width: 200px;
+    }
+    .our-services-1-text{
+        width: 300px;
     }
 }
 @media screen and (max-width:493px) {
     .our-services-banner-img img{
-        /* margin-left: -80px; */
         margin-top: 750px;
-        /* width: 300px; */
     }
-
 }
 
 @media screen and (max-width:487px) {
     .our-services-banner-img img{
-        /* margin-left: -80px; */
         margin-top: 100px;
-        /* width: 300px; */
     }
 
     .container-our-services-2{
-        margin-left: -50px;
+        /* margin-left: -50px; */
     }
 }
 
@@ -918,7 +957,12 @@
         font-size: 14px;
     }
 } 
+@media screen and (max-width:400px) {
+    .our-services-1-text{
+        width: 250px;
+    }
 
+}
 @media screen and (max-width:380px) {
     .our-services-banner-img img{
         width: 250px;
@@ -932,7 +976,6 @@
     }
     .our-services-1{
         margin-top: -100px;
-        width: 200px;
     }
 
     .our-services-2-title{
@@ -941,6 +984,7 @@
 
     .our-services-1-text{
         font-size: 12px;
+        width: 200px;
     }
 
     .our-services-2-text{
@@ -948,10 +992,6 @@
     }
 }
 @media screen and (max-width:365px) {
-    .what-we-do-img{
-        margin-left: 60px;
-    }
-
     .our-services-banner-img{
         margin-top: 800px;
     }
@@ -969,7 +1009,7 @@
     }
 
     .our-services-1{
-        margin-left: -60px;
+        /* margin-left: -60px; */
     }
 
     .what-we-do-img
@@ -1253,7 +1293,7 @@
     
 
     .sofware-development-1-text div img{
-        margin-top: -50px;
+        display: none;
     }
     .sofware-development-2 {
         flex-direction: column;
@@ -1288,7 +1328,9 @@
     }
    
 }
-
+@media screen and ( max-width: 530px){
+    .sofware-development-1-text
+}
 @media screen and ( max-width: 530px){
     .sofware-development-1-square{
         width: 80px;
